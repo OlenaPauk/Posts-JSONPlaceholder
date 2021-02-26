@@ -1,4 +1,4 @@
-## [Demo page] (https://olenapauk.github.io/Posts-JSONPlaceholder/)
+## [Demo page](https://olenapauk.github.io/Posts-JSONPlaceholder/)
 
 
 # Posts

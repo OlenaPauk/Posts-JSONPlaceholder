@@ -1,0 +1,16 @@
+<div class="posts">
+    <div class="post-card" *ngFor="let post of postsService.posts" [routerLink]="[ '/post', post.id ]">
+        <p>Post №{{post.id}}</p>
+        <p> {{post.title}}</p>
+    </div>
+    
+</div>
+<div class="button">
+    <button class="btn btn-more" (click)="showMore()" *ngIf="showButton;else noButton">More posts</button>
+    <ng-template #noButton>
+        <p>It's all!</p>
+    </ng-template>
+    
+
+</div>
+

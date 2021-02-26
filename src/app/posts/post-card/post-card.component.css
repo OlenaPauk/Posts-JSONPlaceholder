@@ -1,15 +1,14 @@
 .post {
-    width: 600px;
+    max-width: 400px;
     height: 400px;
     margin: 0 auto;
     margin-top: 30px;
 }
 
 .post-card {
-    width: 400px;
+    width: 100%;
     min-height: 100px;
     border: 2px dashed gray;
-    margin: 0 auto;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
@@ -20,7 +19,7 @@
 }
 .btn-back{
     margin: 0 auto;
-    width:10%;
+    width:20%;
     margin-bottom:10px;
     padding:6px;
     background-color: rgb(76, 144, 221);
